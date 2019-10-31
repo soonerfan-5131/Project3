@@ -1,3 +1,5 @@
+import java.io.IOException;
+
 public abstract class MesoDateTimeTwoAbstract {
 	
 	abstract void daysOfCurrentMonth();
@@ -8,5 +10,5 @@ public abstract class MesoDateTimeTwoAbstract {
 	
 	abstract void dateHashMapSorted();
 	
-	abstract void compareYear();
+	abstract void compareYear() throws IOException;
 }
