@@ -4,7 +4,6 @@ import java.util.TreeMap;
 
 public class MesoLexicographical extends MesoSortedAbstract
 {
-	private HashMap<String, Integer> hashMap;
 	public MesoLexicographical(HashMap<String, Integer> hash) {
 		for(String key: sortedMap(hash).keySet()) {
 			System.out.println(key);
