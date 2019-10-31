@@ -1,1 +1,2 @@
 # Project3
+I did not get my whole project working correctly.  In my DateTimeOne class, I did not figure out how to format the dates in the desired way.  I decided to use private zoneIds and a private LocalDateTime to allow for easier creation of the objects later.  I also created a private Hashmap for the String keys and LocalDateTime values and a private int for the currentSeconds.  Everything else worked (as far as I can remember) except the style printing.
