@@ -55,6 +55,7 @@ public class DateTimeTwo{
 			i++;
 			line = br.readLine();
 		}
+		br.close();
 	}
 	
 	public void compareYear() throws IOException {
@@ -65,7 +66,6 @@ public class DateTimeTwo{
 			int yearDifference = myPeriod.getYears();
 			int monthDifference = myPeriod.getMonths();
 			int dayDifference = myPeriod.getDays();
-			int myDateYear = myDate.getYear();
 			if(myDate.isLeapYear() == true) {
 				System.out.println(myDate.getYear() + " is a leap year, and Difference: " + yearDifference + " years, " + monthDifference + 
 						" months, " + dayDifference + " days.");
