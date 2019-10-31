@@ -1,3 +1,4 @@
 # Project3
 I did not get my whole project working correctly.  In my DateTimeOne class, I did not figure out how to format the dates in the desired way.  I decided to use private zoneIds and a private LocalDateTime to allow for easier creation of the objects later.  I also created a private Hashmap for the String keys and LocalDateTime values and a private int for the currentSeconds.  Everything else worked (as far as I can remember) except the style printing.
 I believe my DateTimeTwo class works much better.  I created an abstract class for that class, which obviously zyLabs did not like.  I removed all references to it when I was finished, but I included it in my repository because I already created it and did not want to remove it.
+My MesoAsciiCal class did not work properly.  I was going to change it and try another submission to zyLabs but I ran out of time to where it would benefit me to do so.  I was creating the change and stopped whenever I ran out of time.
